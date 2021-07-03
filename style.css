@@ -1,0 +1,193 @@
+body{
+    background-color: #edf2fb;
+    margin:unset;
+
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 40px;
+    color: #012a4a;
+    margin:20px 70% 0px 3% ;
+    cursor: pointer;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav ul{
+       margin: 0px 10px 10px 40%;
+       text-align:right;
+       padding: unset;
+}
+
+
+ul a{
+    text-decoration: none;
+    color: #012a4a;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+li{
+    text-decoration: none;
+    display: inline;
+    margin-right: 7%;
+
+}
+
+
+.divs{
+    border-radius: 0px;
+    background-color: #edf2fb;
+    /*border-top: 1px solid #012a4a;*/
+    
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5% 30% 3% 3%;
+    font-style:normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #012a4a;
+    /*float: left;*/
+    
+
+}
+
+#intro {
+    border-top: 1px solid #012a4a;
+}
+
+#descricao{
+    text-align: left;
+    margin: 3% 7%;
+    color: #012a4a;
+    font-size: 20px;
+    line-height: 2em;
+    float:left;
+    width: 40%;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+
+
+#foto { 
+    border-radius: 2%;
+    box-shadow: 0px 1px 4px 0px;
+    float:right;
+    margin-top: 5% ;
+    margin-right: 5%;
+    width: 40%;
+
+}
+
+input{
+    padding: 12px 50px;
+    margin: 5% 20% 5% 20%;
+    cursor: pointer;
+    color: whitesmoke ;
+    background-color: #012a4a;
+    border-radius: 30px;
+    border-style:none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+/*aqui começa o footer*/
+footer {
+    background-color: #012a4a;
+    align-items: initial;
+    padding: 20px;
+
+}
+
+#instaicon {
+    width: 20px;
+    background-color: #012a4a;
+    float: left;
+    box-shadow: none;
+    margin: 15px 12px;
+    cursor: pointer;
+    
+}
+
+#malaicon{
+    width: 20px;
+    background-color: #012a4a;
+    float: left;
+    box-shadow: none;
+    margin:0px 12px;
+    cursor: pointer;
+
+}
+
+p a{
+    color: whitesmoke;
+    text-decoration-line: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*aqui vc apenas acrescenta as modificações que já foram feitas antes de se tornar responsivo*/
+@media only screen and (max-width: 480px) {
+
+    h1{ 
+        margin: 5%;
+    }
+     nav ul {
+        margin: 10px 5px;
+        text-align: center;
+        
+    }
+
+    #foto {
+      width: 90%;
+      margin: 10% 5% 0% 0%;
+    
+    }
+
+    h2 {
+        margin: 10% 20% 5% 10%;
+        float: right;
+        font-size: 1.5em;
+    
+    }
+
+    #descricao {
+        width: 80%;
+        text-align: justify;
+        margin: 0% 0% 0% 10%;
+        font-size: 1.2em;
+    
+    }
+
+    input{
+        margin: 12% 0% 12% 30% ;
+    }
+
+    #copyright{
+        margin-top: 10%;
+    }
+   
+}
